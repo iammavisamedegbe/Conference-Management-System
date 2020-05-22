@@ -1,0 +1,144 @@
+@media screen and (max-width: 900px){
+    .btn-area{
+        font-size: 15px;
+       letter-spacing: 1px;
+    }
+.ptext p{
+  top:60%;
+  font-size:35px;
+  letter-spacing:2px;
+}
+.tag{
+  top:80%;
+}
+.mainsponsors{
+  height: 150px;
+}
+
+.flex-wrapper{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    position: relative;
+}
+.main{
+  margin-left: 120px;
+  margin-right: 200px;
+  
+}
+.one{
+  width: 170px;
+   margin-right:1px;
+  flex-shrink: 1;
+  display: flex;
+}
+
+
+.two{
+  width: 300px;
+   flex-shrink: 1;
+   display: flex;
+}
+  
+
+.three{
+   display: none;
+
+}
+  
+.four{
+   display: none;
+}
+.mainsponsors{
+  margin-top:0px;
+  height: 200px;
+  letter-spacing: 2px;
+}
+
+.flex-social > div {
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.flex-sponsor > div.arena{
+   display: none;
+}
+.flex-sponsor > div.baby{
+	display: none;
+}
+.flex-sponsor > div.cyber{
+    color:red;
+    font-style: italic;
+    margin-right:40px;
+    font-family: 'Georgia', serif;
+}
+.flex-sponsor > div.chase{
+    color:red;
+    font-style: italic;
+    margin-right:40px;
+    font-family: 'Georgia', serif;
+}
+#footer ul{
+  display: none;
+}
+
+.open-button {
+  margin-left: 190px;
+  width: 270px;
+}
+
+.form-popup {
+  right: -15px;
+  top: 10px;
+ 
+}
+.open-button {
+   left:-20px;
+   
+}
+}
+@media screen and (max-width: 1110px){
+	.btn-area{
+        font-size: 15px;
+       letter-spacing: 1px;
+       color: red;
+    }
+    .three{
+   display: none;
+
+}
+.main{
+  margin-left: 30px;
+  margin-right: 30px;
+ 
+}
+.four{
+   display: none;
+}
+
+
+
+.form-popup {
+  right: -15px;
+  top: 10px;
+ 
+}
+.open-button {
+   left:-20px;
+}
+	}
+
+@media screen and (max-width: 1125px){
+	.four{
+   display: none;
+}
+.open-button {
+  margin-left: 10px;
+  width: 270px;
+}
+
+	}
